@@ -1,0 +1,60 @@
+body{
+    background-color: grey;
+}
+.todo{
+    width:200px;
+    display: flex;
+}
+.nadpis{
+    font-size: 30px;
+}
+.todolistk{
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+
+
+}
+.remove{
+    color: red;
+}
+.button{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border-style: none;
+}
+.todo-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-right: 8px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+.p {
+    margin: 8px 0;
+    padding: 8px;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+}
